@@ -1,0 +1,16 @@
+.header1 {
+    background-color: white;
+}
+college-name a{
+color:white;
+text-decoration: none;
+transition: color 0.3s ease;
+}
+.college-name a:hover {color: white
+}
+.deskstop-nav
+{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
