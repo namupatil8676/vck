@@ -1,4 +1,4 @@
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import "./App.css";
@@ -22,7 +22,7 @@ const App = () =>{
           show={showPopup}
           onClose={handleClosePopup}
           studentName="Namrata patil"
-          studentPhotoUrl="\Images\np.jpeg"// Path to their photo
+          studentPhotoUrl="np.jpeg"// Path to their photo
           uniqueMessage="Learned so much during this OJT! This app showcases my independent coding and deployment skills"
         />
       </div>
